@@ -2,7 +2,7 @@
 
 A curated and **year-sorted** reading list for universal morphology control, cross-embodiment robot learning, robot foundation models / VLAs, embodiment co-design, and robot datasets / benchmarks.
 
-> Last strict check: **2026-04-28**  
+> Last strict check: **2026-05-26**  
 > Sorting rule: entries are grouped by topic, then sorted by **publication/venue year**. For arXiv-only papers, the arXiv submission year is used.  
 
 ---
@@ -29,6 +29,7 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 | Topic | Representative Works | Why it matters |
 |---|---|---|
 | Universal morphology control | NerveNet, MetaMorph, SWAT, ModuMorph, HyperDistill, GET-Zero | One controller across robot bodies, body graphs, kinematic trees, or modular robots. |
+| Universal legged locomotion across robots | RMA, GenLoco, ManyQuadrupeds, MetaLoco, GRoQ-LoCO, Multi-Loco, XHugWBC | Generalized or adaptive locomotion policies across quadrupeds/humanoids, terrains, dynamics, and morphology families. |
 | Cross-embodiment generalist policy | RT-1, RT-2, RT-X, Octo, CrossFormer, OpenVLA, π0 / π0.5 | Scaling robot policies across datasets, action spaces, sensors, robots, and tasks. |
 | Cross-robot adaptation | Cross-robot behavior adaptation through intention alignment, CEI, MOTIF, Cross-Embodiment Offline RL | Transfer behavior across robots with incompatible embodiment/action spaces. |
 | Embodiment co-design | NGE, DERL, DiffuseBot, BodyGen, House of Dextra, Stackelberg PPO | Jointly optimize body morphology and controller. |
@@ -64,6 +65,11 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 
 ### 2021
 
+- **RMA: Rapid Motor Adaptation for Legged Robots**. [[pdf](https://arxiv.org/pdf/2107.04034)] [[web](https://ashish-kmr.github.io/rma-legged-robots/)] [[proceedings](https://roboticsproceedings.org/rss17/p011.html)]
+  [![Conference](https://img.shields.io/badge/Conference-RSS-green)](https://roboticsconference.org/)
+  · Ashish Kumar, Zipeng Fu, Deepak Pathak, Jitendra Malik. *RSS, 2021*
+  > Real-time online adaptation for quadrupedal locomotion under unseen terrain, payload, and dynamics shifts. Included as an important precursor to morphology/dynamics-conditioned legged control.
+
 - **My Body is a Cage: the Role of Morphology in Graph-Based Incompatible Control**. [[pdf](https://openreview.net/pdf?id=N3zUDGN5lO)] [[code](https://github.com/yobibyte/amorpheus)]  
   [![Conference](https://img.shields.io/badge/Conference-ICLR-green)](https://iclr.cc/)  
   · Vitaly Kurin, Maximilian Igl, Tim Rocktäschel, Wendelin Böhmer, Shimon Whiteson. *ICLR, 2021*
@@ -86,6 +92,11 @@ A curated and **year-sorted** reading list for universal morphology control, cro
   [![Conference](https://img.shields.io/badge/Conference-ICLR-green)](https://iclr.cc/)  
   · Agrim Gupta, Linxi Fan, Surya Ganguli, Li Fei-Fei. *ICLR, 2022*
 
+- **GenLoco: Generalized Locomotion Controllers for Quadrupedal Robots**. [[pdf](https://proceedings.mlr.press/v205/feng23a/feng23a.pdf)] [[pmlr](https://proceedings.mlr.press/v205/feng23a.html)] [[web](https://xbpeng.github.io/projects/GenLoco/index.html)] [[code](https://github.com/HybridRobotics/GenLoco)]
+  [![Conference](https://img.shields.io/badge/Conference-CoRL-green)](https://www.corl.org/)
+  · Gilbert Feng, Hongbo Zhang, Zhongyu Li, Xue Bin Peng, Bhuvan Basireddy, Linzhu Yue, Zhitao Song, Lizhi Yang, Yunhui Liu, Koushil Sreenath, Sergey Levine. *CoRL, 2022; PMLR, 2023*
+  > Uses morphology randomization to train generalized quadrupedal locomotion controllers deployable to unseen simulated and real quadrupeds with similar morphology families.
+
 ### 2023
 
 - **Learning Modular Robot Control Policies**. [[pdf](https://arxiv.org/pdf/2105.10049)] [[doi](https://doi.org/10.1109/TRO.2023.3284362)] [[code](https://github.com/WilsonWangTHU/neural_graph_evolution)]  
@@ -106,6 +117,16 @@ A curated and **year-sorted** reading list for universal morphology control, cro
   [![Conference](https://img.shields.io/badge/Conference-ICML-green)](https://icml.cc/)  
   · Zheng Xiong, Risto Vuorio, Jacob Beck, Matthieu Zimmer, Kun Shao, Shimon Whiteson. *ICML, 2024*
 
+- **ManyQuadrupeds: Learning a Single Locomotion Policy for Diverse Quadruped Robots**. [[pdf](https://arxiv.org/pdf/2310.10486)] [[web](https://miladshafiee.github.io/ManyQuadrupeds/)] [[dblp](https://dblp.org/rec/conf/icra/ShafieeBI24.html)]
+  [![Conference](https://img.shields.io/badge/Conference-ICRA-green)](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra)
+  · Milad Shafiee, Guillaume Bellegarda, Auke Jan Ijspeert. *ICRA, 2024; arXiv, 2023*
+  > Trains a single locomotion policy across quadrupeds with variable DoFs, morphologies, masses, and sizes; tested in sim-to-real on Unitree Go1 and A1.
+
+- **MetaLoco: Universal Quadrupedal Locomotion with Meta-Reinforcement Learning and Motion Imitation**. [[pdf](https://arxiv.org/pdf/2407.17502)]
+  [![ArXiv](https://img.shields.io/badge/ArXiv-2407.17502-red)](https://arxiv.org/abs/2407.17502)
+  · Fatemeh Zargarbashi, Fabrizio Di Giuro, Jin Cheng, Dongho Kang, Bhavya Sukhija, Stelian Coros. *ArXiv, 2024*
+  > Meta-RL and motion imitation for zero-shot quadrupedal locomotion generalization across procedurally generated and real platforms.
+
 ### 2025
 
 - **GET-Zero: Graph Embodiment Transformer for Zero-shot Embodiment Generalization**. [[pdf](https://arxiv.org/pdf/2407.15002)] [[web](https://get-zero-paper.github.io/)] [[code](https://github.com/real-stanford/get_zero)]  
@@ -116,15 +137,30 @@ A curated and **year-sorted** reading list for universal morphology control, cro
   [![Conference](https://img.shields.io/badge/Conference-IJCAI-green)](https://2025.ijcai.org/)  
   · Yingbo Luo, Meibao Yao, Xueming Xiao. *IJCAI, 2025*
 
+- **GRoQ-LoCO: Generalist and Robot-agnostic Quadruped Locomotion Control using Offline Datasets**. [[pdf](https://arxiv.org/pdf/2505.10973)]
+  [![ArXiv](https://img.shields.io/badge/ArXiv-2505.10973-red)](https://arxiv.org/abs/2505.10973)
+  · Narayanan PP, Sarvesh Prasanth Venkatesan, Srinivas Kantha Reddy, Shishir Kolathaya. *ArXiv, 2025*
+  > Offline-data generalist locomotion policy across multiple quadruped robots and terrains, without robot-specific encodings.
+
 - **Modular Recurrence in Contextual MDPs for Universal Morphology Control**. [[pdf](https://arxiv.org/pdf/2506.08630)]  
   [![ArXiv](https://img.shields.io/badge/ArXiv-2506.08630-red)](https://arxiv.org/abs/2506.08630)  
   · Laurens Engwegen, Daan Brinks, Wendelin Böhmer. *ArXiv, 2025*
+
+- **Multi-Loco: Unifying Multi-Embodiment Legged Locomotion via Reinforcement Learning Augmented Diffusion**. [[pdf](https://arxiv.org/pdf/2506.11470)] [[pmlr](https://proceedings.mlr.press/v305/yang25a.html)] [[web](https://multi-loco.github.io/)]
+  [![Conference](https://img.shields.io/badge/Conference-CoRL-green)](https://www.corl.org/)
+  · Shunpeng Yang, Zhen Fu, Zhefeng Cao, Guo Junde, Patrick Wensing, Wei Zhang, Hua Chen. *CoRL, 2025*
+  > Combines morphology-agnostic diffusion with an RL residual policy for generalized locomotion across diverse legged embodiments.
 
 - **Knowledge Diversion for Efficient Morphology Control and Policy Transfer**. [[pdf](https://arxiv.org/pdf/2512.09796)]  
   [![ArXiv](https://img.shields.io/badge/ArXiv-2512.09796-red)](https://arxiv.org/abs/2512.09796)  
   · Fu Feng, Ruixiao Shi, Yucheng Xie, Jianlu Shen, Jing Wang, Xin Geng. *ArXiv, 2025*
 
 ### 2026
+
+- **Scalable and General Whole-Body Control for Cross-Humanoid Locomotion**. [[pdf](https://arxiv.org/pdf/2602.05791)]
+  [![ArXiv](https://img.shields.io/badge/ArXiv-2602.05791-red)](https://arxiv.org/abs/2602.05791)
+  · Yufei Xue, YunFeng Lin, Wentao Dong, Yang Tang, Jingbo Wang, Jiangmiao Pang, Ming Zhou, Minghuan Liu, Weinan Zhang. *ArXiv, 2026*
+  > Introduces XHugWBC, a cross-embodiment humanoid whole-body control framework using morphology randomization and aligned observation/action spaces.
 
 - **Embedding Morphology into Transformers for Cross-Robot Policy Learning**. [[pdf](https://arxiv.org/pdf/2603.00182)] [[openreview](https://openreview.net/forum?id=WVEdIvUSqp)]  
   [![ArXiv](https://img.shields.io/badge/ArXiv-2603.00182-red)](https://arxiv.org/abs/2603.00182)  
@@ -470,6 +506,13 @@ A curated and **year-sorted** reading list for universal morphology control, cro
   [![Benchmark](https://img.shields.io/badge/Benchmark-Embodied_Reasoning-orange)](https://joychingwu.github.io/bongard-openworld.github.io/)  
   · Free-form embodied-agent reasoning benchmark.
 
+### 2025
+
+- **AnyBody: A Benchmark Suite for Cross-Embodiment Manipulation**. [[paper](https://arxiv.org/pdf/2505.14986)] [[web](https://princeton-vl.github.io/anybody/)] [[code](https://github.com/meenalparakh/anybody)]
+  [![Benchmark](https://img.shields.io/badge/Benchmark-Cross--Embodiment-orange)](https://princeton-vl.github.io/anybody/)
+  · Meenal Parakh, Alexandre Kirchmeyer, Beining Han, Jia Deng. *ArXiv, 2025*
+  > Standardized reach/push benchmark for cross-embodiment manipulation, with interpolation, extrapolation, and composition generalization axes.
+
 ---
 
 # 3. Suggested Reading Paths
@@ -480,6 +523,13 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 2. SWAT → MetaMorph → ModuMorph  
 3. HyperDistill → GET-Zero → GCNT → Modular Recurrence  
 4. 2026 frontier: Embedding Morphology into Transformers → DexGrasp-Zero → Hardware-Agnostic Quadrupedal World Models
+
+## 3.1b Universal / Generalist Legged Locomotion
+
+1. RMA → GenLoco  
+2. ManyQuadrupeds → MetaLoco  
+3. GRoQ-LoCO → Multi-Loco  
+4. 2026 frontier: XHugWBC for cross-humanoid whole-body locomotion
 
 ## 3.2 Cross-Embodiment Generalist Robot Policy
 
@@ -503,3 +553,11 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 ---
 
 
+
+
+## 4.1 Additions in 2026-05-26 Update
+
+- Added RMA, GenLoco, ManyQuadrupeds, MetaLoco, GRoQ-LoCO, Multi-Loco, XHugWBC, and AnyBody.
+- RMA is included as a legged-locomotion adaptation precursor rather than a pure morphology-agnostic controller.
+- GenLoco, ManyQuadrupeds, MetaLoco, GRoQ-LoCO, Multi-Loco, and XHugWBC were added because they directly target generalist or cross-robot legged locomotion/control.
+- AnyBody was added as a cross-embodiment manipulation benchmark rather than a locomotion benchmark.
