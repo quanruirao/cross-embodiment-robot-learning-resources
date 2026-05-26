@@ -68,7 +68,6 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 - **RMA: Rapid Motor Adaptation for Legged Robots**. [[pdf](https://arxiv.org/pdf/2107.04034)] [[web](https://ashish-kmr.github.io/rma-legged-robots/)] [[proceedings](https://roboticsproceedings.org/rss17/p011.html)]
   [![Conference](https://img.shields.io/badge/Conference-RSS-green)](https://roboticsconference.org/)
   · Ashish Kumar, Zipeng Fu, Deepak Pathak, Jitendra Malik. *RSS, 2021*
-  > Real-time online adaptation for quadrupedal locomotion under unseen terrain, payload, and dynamics shifts. Included as an important precursor to morphology/dynamics-conditioned legged control.
 
 - **My Body is a Cage: the Role of Morphology in Graph-Based Incompatible Control**. [[pdf](https://openreview.net/pdf?id=N3zUDGN5lO)] [[code](https://github.com/yobibyte/amorpheus)]  
   [![Conference](https://img.shields.io/badge/Conference-ICLR-green)](https://iclr.cc/)  
@@ -120,12 +119,10 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 - **ManyQuadrupeds: Learning a Single Locomotion Policy for Diverse Quadruped Robots**. [[pdf](https://arxiv.org/pdf/2310.10486)] [[web](https://miladshafiee.github.io/ManyQuadrupeds/)] [[dblp](https://dblp.org/rec/conf/icra/ShafieeBI24.html)]
   [![Conference](https://img.shields.io/badge/Conference-ICRA-green)](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra)
   · Milad Shafiee, Guillaume Bellegarda, Auke Jan Ijspeert. *ICRA, 2024; arXiv, 2023*
-  > Trains a single locomotion policy across quadrupeds with variable DoFs, morphologies, masses, and sizes; tested in sim-to-real on Unitree Go1 and A1.
 
 - **MetaLoco: Universal Quadrupedal Locomotion with Meta-Reinforcement Learning and Motion Imitation**. [[pdf](https://arxiv.org/pdf/2407.17502)]
   [![ArXiv](https://img.shields.io/badge/ArXiv-2407.17502-red)](https://arxiv.org/abs/2407.17502)
   · Fatemeh Zargarbashi, Fabrizio Di Giuro, Jin Cheng, Dongho Kang, Bhavya Sukhija, Stelian Coros. *ArXiv, 2024*
-  > Meta-RL and motion imitation for zero-shot quadrupedal locomotion generalization across procedurally generated and real platforms.
 
 ### 2025
 
@@ -140,7 +137,6 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 - **GRoQ-LoCO: Generalist and Robot-agnostic Quadruped Locomotion Control using Offline Datasets**. [[pdf](https://arxiv.org/pdf/2505.10973)]
   [![ArXiv](https://img.shields.io/badge/ArXiv-2505.10973-red)](https://arxiv.org/abs/2505.10973)
   · Narayanan PP, Sarvesh Prasanth Venkatesan, Srinivas Kantha Reddy, Shishir Kolathaya. *ArXiv, 2025*
-  > Offline-data generalist locomotion policy across multiple quadruped robots and terrains, without robot-specific encodings.
 
 - **Modular Recurrence in Contextual MDPs for Universal Morphology Control**. [[pdf](https://arxiv.org/pdf/2506.08630)]  
   [![ArXiv](https://img.shields.io/badge/ArXiv-2506.08630-red)](https://arxiv.org/abs/2506.08630)  
@@ -149,7 +145,6 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 - **Multi-Loco: Unifying Multi-Embodiment Legged Locomotion via Reinforcement Learning Augmented Diffusion**. [[pdf](https://arxiv.org/pdf/2506.11470)] [[pmlr](https://proceedings.mlr.press/v305/yang25a.html)] [[web](https://multi-loco.github.io/)]
   [![Conference](https://img.shields.io/badge/Conference-CoRL-green)](https://www.corl.org/)
   · Shunpeng Yang, Zhen Fu, Zhefeng Cao, Guo Junde, Patrick Wensing, Wei Zhang, Hua Chen. *CoRL, 2025*
-  > Combines morphology-agnostic diffusion with an RL residual policy for generalized locomotion across diverse legged embodiments.
 
 - **Knowledge Diversion for Efficient Morphology Control and Policy Transfer**. [[pdf](https://arxiv.org/pdf/2512.09796)]  
   [![ArXiv](https://img.shields.io/badge/ArXiv-2512.09796-red)](https://arxiv.org/abs/2512.09796)  
@@ -160,7 +155,6 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 - **Scalable and General Whole-Body Control for Cross-Humanoid Locomotion**. [[pdf](https://arxiv.org/pdf/2602.05791)]
   [![ArXiv](https://img.shields.io/badge/ArXiv-2602.05791-red)](https://arxiv.org/abs/2602.05791)
   · Yufei Xue, YunFeng Lin, Wentao Dong, Yang Tang, Jingbo Wang, Jiangmiao Pang, Ming Zhou, Minghuan Liu, Weinan Zhang. *ArXiv, 2026*
-  > Introduces XHugWBC, a cross-embodiment humanoid whole-body control framework using morphology randomization and aligned observation/action spaces.
 
 - **Embedding Morphology into Transformers for Cross-Robot Policy Learning**. [[pdf](https://arxiv.org/pdf/2603.00182)] [[openreview](https://openreview.net/forum?id=WVEdIvUSqp)]  
   [![ArXiv](https://img.shields.io/badge/ArXiv-2603.00182-red)](https://arxiv.org/abs/2603.00182)  
@@ -234,7 +228,6 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 - **Scaling Cross-Embodied Learning: One Policy for Manipulation, Navigation, Locomotion and Aviation**. [[pdf](https://arxiv.org/pdf/2408.11812)] [[web](https://crossformer-model.github.io/)] [[openreview](https://openreview.net/forum?id=AuJnXGq3AL)] [[code](https://github.com/rail-berkeley/crossformer)]  
   [![Conference](https://img.shields.io/badge/Conference-CoRL_Oral-green)](https://www.corl.org/)  
   · Ria Doshi, Homer Walke, Oier Mees, Sudeep Dasari, Sergey Levine. *CoRL, 2024 Oral*  
-  > Commonly referred to as **CrossFormer**.
 
 - **π0: A Vision-Language-Action Flow Model for General Robot Control**. [[pdf](https://arxiv.org/pdf/2410.24164)] [[web](https://www.physicalintelligence.company/blog/pi0)] [[code](https://github.com/Physical-Intelligence/openpi)]  
   [![ArXiv](https://img.shields.io/badge/ArXiv-2410.24164-red)](https://arxiv.org/abs/2410.24164)  
@@ -305,7 +298,6 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 - **Cross-robot behavior adaptation through intention alignment**. [[paper](https://www.science.org/doi/10.1126/scirobotics.adv2250)] [[pubmed](https://pubmed.ncbi.nlm.nih.gov/41849566/)]  
   [![Journal](https://img.shields.io/badge/Journal-Science_Robotics-blue)](https://www.science.org/journal/scirobotics)  
   · Xi Chen, Yuan Gao, Hangxin Liu, Fangkai Yang, Ali Ghadirzadeh, Jun Yang, Bin Liang, Chongjie Zhang, Tin Lun Lam, Song-Chun Zhu. *Science Robotics, 2026*  
-  > Introduces **Intention-Aligned Imitation Learning (IAIL)** for behavior adaptation among heterogeneous robots.
 
 ---
 
