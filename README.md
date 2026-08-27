@@ -712,5 +712,3 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 - Added CrossDex, LEGATO, Object-centric 3D Motion Field, 3DFlowAction, CE-Nav, X-Diffusion, OPFA, BARX, Cross-Hand Latent Representation, GraspGen-X, and TraceGen.
 - Added Shape Your Body: Value Gradients for Multi-Embodiment Robot Design.
 - Added GENBOT-1K, RoboCasa-X, UniDex-Dataset, CEDex Cross-Embodiment Grasp Dataset, and TraceForge-123K.
-- Dataset and benchmark entries use publication-status badges (**Conference / Journal / ArXiv**) instead of Dataset / Benchmark category badges.
-- Normalized Markdown line breaks so titles, venue badges, authors, and descriptions render cleanly on GitHub.
