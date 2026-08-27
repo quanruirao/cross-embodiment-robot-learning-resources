@@ -2,7 +2,7 @@
 
 A curated and **year-sorted** reading list for universal morphology control, cross-embodiment robot learning, robot foundation models / VLAs, embodiment co-design, and robot datasets / benchmarks.
 
-> Last strict check: **2026-05-26**  
+> Last strict check: **2026-08-28**  
 > Sorting rule: entries are grouped by topic, then sorted by **publication/venue year**. For arXiv-only papers, the arXiv submission year is used.  
 
 ---
