@@ -124,6 +124,11 @@ A curated and **year-sorted** reading list for universal morphology control, cro
   [![ArXiv](https://img.shields.io/badge/ArXiv-2407.17502-red)](https://arxiv.org/abs/2407.17502)
   · Fatemeh Zargarbashi, Fabrizio Di Giuro, Jin Cheng, Dongho Kang, Bhavya Sukhija, Stelian Coros. *ArXiv, 2024*
 
+- **One Policy to Run Them All: An End-to-End Learning Approach to Multi-Embodiment Locomotion**. [[paper](https://mlanthology.org/corl/2024/bohlinger2024corl-one/)]
+  [![Conference](https://img.shields.io/badge/Conference-CoRL-green)](https://www.corl.org/)
+  · Nico Bohlinger, Grzegorz Czechmanowski, Maciej Piotr Krupka, Piotr Kicki, Krzysztof Walas, Jan Peters, Davide Tateo. *CoRL, 2024*
+  > Introduces URMA, a morphology-agnostic encoder/decoder architecture for a single locomotion policy across quadrupeds, humanoids, and hexapods, with transfer to unseen simulated and real robots.
+
 ### 2025
 
 - **GET-Zero: Graph Embodiment Transformer for Zero-shot Embodiment Generalization**. [[pdf](https://arxiv.org/pdf/2407.15002)] [[web](https://get-zero-paper.github.io/)] [[code](https://github.com/real-stanford/get_zero)]  
@@ -150,6 +155,21 @@ A curated and **year-sorted** reading list for universal morphology control, cro
   [![ArXiv](https://img.shields.io/badge/ArXiv-2512.09796-red)](https://arxiv.org/abs/2512.09796)  
   · Fu Feng, Ruixiao Shi, Yucheng Xie, Jianlu Shen, Jing Wang, Xin Geng. *ArXiv, 2025*
 
+- **UniLegs: Universal Multi-Legged Robot Control through Morphology-Agnostic Policy Distillation**. [[pdf](https://arxiv.org/pdf/2507.22653)] [[dblp](https://dblp.org/rec/conf/iros/XiCMZZ25.html)]
+  [![Conference](https://img.shields.io/badge/Conference-IROS-green)](https://www.iros25.org/)
+  · Weijie Xi, Zhanxiang Cao, Chenlin Ming, Jianying Zheng, Guyue Zhou. *IROS, 2025*
+  > Distills morphology-specific teacher policies into a single Transformer student across five legged morphologies, including generalization to unseen robot designs.
+
+- **Towards Embodiment Scaling Laws in Robot Locomotion**. [[pdf](https://arxiv.org/pdf/2505.05753)] [[pmlr](https://proceedings.mlr.press/v305/ai25a.html)] [[web](https://embodiment-scaling-laws.github.io/)] [[code](https://github.com/BoAi01/embodiment-scaling-laws)]
+  [![Conference](https://img.shields.io/badge/Conference-CoRL-green)](https://www.corl.org/)
+  · Bo Ai, Liu Dai, Nico Bohlinger, Dichen Li, Tongzhou Mu, Zhanxin Wu, K. Fay, Henrik I. Christensen, Jan Peters, Hao Su. *CoRL, 2025*
+  > Studies embodiment scaling on roughly 1,000 procedurally generated humanoid, quadruped, and hexapod embodiments and shows improved zero-shot generalization as the number of training embodiments grows.
+
+- **Multi-Embodiment Locomotion at Scale with extreme Embodiment Randomization**. [[pdf](https://arxiv.org/pdf/2509.02815)]
+  [![ArXiv](https://img.shields.io/badge/ArXiv-2509.02815-red)](https://arxiv.org/abs/2509.02815)
+  · Nico Bohlinger, Jan Peters. *ArXiv, 2025*
+  > Combines URMAv2 with extreme embodiment randomization over 50 legged robot bases and millions of morphology variations, with zero-shot transfer to unseen real humanoids and quadrupeds.
+
 ### 2026
 
 - **Scalable and General Whole-Body Control for Cross-Humanoid Locomotion**. [[pdf](https://arxiv.org/pdf/2602.05791)]
@@ -168,6 +188,11 @@ A curated and **year-sorted** reading list for universal morphology control, cro
   [![ArXiv](https://img.shields.io/badge/ArXiv-2604.08780-red)](https://arxiv.org/abs/2604.08780)  
   · Mohamad H. Danesh, Chenhao Li, Amin Abyaneh, Anas Houssaini, Kirsty Ellis, Glen Berseth, Marco Hutter, Hsiu-Chin Lin. *ArXiv, 2026*
 
+- **Rapid Embodiment Adaptation for Quadrupedal Locomotion**. [[pdf](https://arxiv.org/pdf/2608.01506)] [[web](https://embodiment-adaptation.github.io/)]
+  [![ArXiv](https://img.shields.io/badge/ArXiv-2608.01506-red)](https://arxiv.org/abs/2608.01506)
+  · Dichen Li, Bo Ai, Nico Bohlinger, Jan Peters, Hao Su, Henrik I. Christensen. *ArXiv, 2026*
+  > Infers changing embodiment parameters online from short interaction histories and adapts a generalist quadruped locomotion policy to joint-range changes and payload variations.
+
 ---
 
 ## 1.2 Cross-Embodiment Generalist Policies / Robot Foundation Models
@@ -183,7 +208,6 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 - **Gato: A Generalist Agent**. [[pdf](https://arxiv.org/pdf/2205.06175)] [[web](https://www.deepmind.com/publications/a-generalist-agent)]  
   [![ArXiv](https://img.shields.io/badge/ArXiv-2205.06175-red)](https://arxiv.org/abs/2205.06175)  
   · Scott Reed, Konrad Zolna, Emilio Parisotto, Sergio Gómez Colmenarejo, Alexander Novikov, Gabriel Barth-Maron, Mai Giménez, Yury Sulsky, Jackie Kay, Jost Tobias Springenberg, et al. *ArXiv, 2022*
-
 
 ### 2023
 
@@ -259,6 +283,53 @@ A curated and **year-sorted** reading list for universal morphology control, cro
   [![ArXiv](https://img.shields.io/badge/ArXiv-2506.07976-red)](https://arxiv.org/abs/2506.07976)  
   · Jiaheng Hu, Zihang Chen, Xin Ye, Ling Pan, Qingnan Fan, Tony W. Zhang, Xinlong Wang, et al. *ArXiv, 2025*
 
+- **RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation**. [[paper](https://proceedings.iclr.cc/paper_files/paper/2025/hash/49f80e4d2471ad4f2edf4f5f1ab62339-Abstract-Conference.html)] [[web](https://rdt-robotics.github.io/rdt-robotics/)]
+  [![Conference](https://img.shields.io/badge/Conference-ICLR-green)](https://iclr.cc/)
+  · Songming Liu, Lingxuan Wu, Bangguo Li, Hengkai Tan, Huayu Chen, Zhengyi Wang, Ke Xu, Hang Su, Jun Zhu. *ICLR, 2025*
+  > Introduces a physically interpretable unified action space for pretraining a diffusion foundation model on heterogeneous multi-robot data.
+
+- **Universal Actions for Enhanced Embodied Foundation Models**. [[paper](https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_Universal_Actions_for_Enhanced_Embodied_Foundation_Models_CVPR_2025_paper.html)] [[code](https://github.com/2toinf/uniact)]
+  [![Conference](https://img.shields.io/badge/Conference-CVPR-green)](https://cvpr.thecvf.com/)
+  · Jinliang Zheng, Jianxiong Li, Dongxiu Liu, Yinan Zheng, Zhihao Wang, Zhonghong Ou, Yu Liu, Jingjing Liu, Ya-Qin Zhang, Xianyuan Zhan. *CVPR, 2025*
+  > UniAct learns a Universal Action Space that captures generic behaviors shared by heterogeneous robot embodiments and translates them back to embodiment-specific commands.
+
+- **Learning to Act Anywhere with Task-centric Latent Actions — UniVLA**. [[pdf](https://arxiv.org/pdf/2505.06111)] [[code](https://github.com/OpenDriveLab/UniVLA)]
+  [![Conference](https://img.shields.io/badge/Conference-RSS-green)](https://roboticsconference.org/)
+  · Qingwen Bu, Yanting Yang, Jisong Cai, Shenyuan Gao, Guanghui Ren, Maoqing Yao, Ping Luo, Hongyang Li. *RSS, 2025*
+  > Uses task-centric latent actions to exploit heterogeneous human and robot video data for cross-task and cross-embodiment policy learning.
+
+### 2026
+
+- **X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model**. [[pdf](https://arxiv.org/pdf/2510.10274)] [[openreview](https://openreview.net/forum?id=kt51kZH4aG)] [[code](https://github.com/2toinf/X-VLA)]
+  [![Conference](https://img.shields.io/badge/Conference-ICLR-green)](https://iclr.cc/)
+  · Jinliang Zheng, Jianxiong Li, Zhihao Wang, Dongxiu Liu, Xirui Kang, Yuchun Feng, Yinan Zheng, Jiayin Zou, Yilun Chen, Jia Zeng, Ya-Qin Zhang, Jiangmiao Pang, Jingjing Liu, Tai Wang, Xianyuan Zhan. *ICLR, 2026*
+  > Uses embodiment/data-source-specific soft prompts with a shared Transformer backbone for scalable cross-embodiment VLA training.
+
+- **LAP: Language-Action Pre-Training Enables Zero-shot Cross-Embodiment Transfer**. [[pdf](https://arxiv.org/pdf/2602.10556)]
+  [![Conference](https://img.shields.io/badge/Conference-RSS-green)](https://roboticsconference.org/)
+  · Lihan Zha, Asher J. Hancock, Mingtong Zhang, Tenny Yin, Yixuan Huang, Dhruv Shah, Allen Z. Ren, Anirudha Majumdar. *RSS, 2026*
+  > Represents low-level robot actions directly in natural language and achieves zero-shot transfer to previously unseen robot embodiments without embodiment-specific fine-tuning.
+
+- **Embodied Navigation Foundation Model**. [[paper](https://proceedings.iclr.cc/paper_files/paper/2026/hash/ceb45c48e29e7f49b0b47edb98e43691-Abstract-Conference.html)]
+  [![Conference](https://img.shields.io/badge/Conference-ICLR-green)](https://iclr.cc/)
+  · Jiazhao Zhang, Anqi Li, Yunpeng Qi, Minghan Li, Jiahang Liu, Shaoan Wang, Haoran Liu, Gengze Zhou, Yuze Wu, Xingxing Li, Yuxin Fan, Wenjun Li, Zhibo Chen, Fei Gao, Qi Wu, Zhizheng Zhang, He Wang. *ICLR, 2026*
+  > NavFoM is trained on eight million navigation samples spanning quadrupeds, drones, wheeled robots, and vehicles across multiple navigation tasks.
+
+- **Universal Pose Pretraining for Generalizable Vision-Language-Action Policies**. [[pdf](https://arxiv.org/pdf/2602.19710)] [[web](https://hetolin.github.io/PoseVLA/)] [[code](https://github.com/hetolin/PoseVLA)]
+  [![Conference](https://img.shields.io/badge/Conference-RSS-green)](https://roboticsconference.org/)
+  · Haitao Lin, Hanyang Yu, Jingshun Huang, He Zhang, Yonggen Ling, Ping Tan, Xiangyang Xue, Yanwei Fu. *RSS, 2026*
+  > Pose-VLA uses discrete 3D pose tokens in a unified camera-centric space and separates universal spatial pretraining from embodiment-specific action alignment.
+
+- **Cross-Embodiment Robot Foundation World Models with Latent Actions**. [[pdf](https://openreview.net/pdf/5c8fa1532215f2ea0717ed9db11ee805185dc7d3.pdf)] [[icml](https://icml.cc/virtual/2026/poster/63978)]
+  [![Conference](https://img.shields.io/badge/Conference-ICML-green)](https://icml.cc/)
+  · Huang Huang, Sriram Yenamandra, Arjun Majumdar, Elie Aljalbout, Tushar Nagarajan, Tsung-Yen Yang, Akshara Rai, Michael Rabbat, Li Fei-Fei, Jiajun Wu, Tingfan Wu, Franziska Meier. *ICML, 2026*
+  > LAC-WM learns a unified latent action space shared across robot embodiments for cross-embodiment world-model pretraining and adaptation.
+
+- **UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos**. [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_UniDex_A_Robot_Foundation_Suite_for_Universal_Dexterous_Hand_Control_CVPR_2026_paper.html)] [[code](https://github.com/unidex-ai/UniDex)]
+  [![Conference](https://img.shields.io/badge/Conference-CVPR-green)](https://cvpr.thecvf.com/)
+  · Gu Zhang, Qicheng Xu, Haozhe Zhang, Jianhan Ma, Long He, Yiming Bao, Zeyu Ping, Zhecheng Yuan, Chenhao Lu, Chengbo Yuan, Tianhai Liang, Xiaoyu Tian, Maanping Shao, Feihong Zhang, Mingyu Ding, Yang Gao, Hao Zhao, Hang Zhao, Huazhe Xu. *CVPR, 2026*
+  > Introduces Function-Actuator-Aligned Space for cross-hand action alignment and a 50K+ trajectory dataset spanning eight dexterous hands.
+
 ---
 
 ## 1.3 Cross-Robot Adaptation and Cross-Embodiment Manipulation
@@ -276,6 +347,26 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 - **UniBYD: A Unified Framework for Learning Robotic Manipulation Across Embodiments Beyond Imitation of Human Demonstrations**. [[pdf](https://arxiv.org/pdf/2512.11609)] [[code](https://github.com/zhanheng-creator/UniBYD)]  
   [![ArXiv](https://img.shields.io/badge/ArXiv-2512.11609-red)](https://arxiv.org/abs/2512.11609)  
   · Tingyu Yuan, Biaoliang Guan, Wen Ye, Ziyan Tian, Yi Yang, Weijie Zhou, Yan Huang, Peng Wang, Chaoyang Zhao, Jinqiao Wang. *ArXiv, 2025*
+
+- **Cross-Embodiment Dexterous Grasping with Reinforcement Learning**. [[paper](https://proceedings.iclr.cc/paper_files/paper/2025/hash/ca8c6f28d8ba1e732e3f217ab05c4ec0-Abstract-Conference.html)] [[web](https://sites.google.com/view/crossdex)]
+  [![Conference](https://img.shields.io/badge/Conference-ICLR-green)](https://iclr.cc/)
+  · Haoqi Yuan, Bohan Zhou, Yuhui Fu, Zongqing Lu. *ICLR, 2025*
+  > Uses a human-hand eigengrasp action space and unified fingertip/palm observations to train one dexterous grasping policy across multiple robot hands.
+
+- **LEGATO: Cross-Embodiment Imitation Using a Grasping Tool**. [[pdf](https://arxiv.org/pdf/2411.03682)] [[web](https://ut-hcrl.github.io/LEGATO/)] [[code](https://github.com/UT-HCRL/LEGATO)]
+  [![Journal](https://img.shields.io/badge/Journal-IEEE_RA--L-blue)](https://www.ieee-ras.org/publications/ra-l)
+  · Mingyo Seo, H. Andy Park, Shenli Yuan, Yuke Zhu, Luis Sentis. *IEEE Robotics and Automation Letters, 2025*
+  > Uses a handheld gripper as a common action and observation interface and retargets learned motions to heterogeneous robot embodiments.
+
+- **Object-centric 3D Motion Field for Robot Learning from Human Videos**. [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/50f91c82158baed92e9b7e5491a6d997-Abstract-Conference.html)]
+  [![Conference](https://img.shields.io/badge/Conference-NeurIPS-green)](https://neurips.cc/)
+  · Zhao-Heng Yin, Sherry Yang, Pieter Abbeel. *NeurIPS, 2025*
+  > Uses an object-centric 3D motion field as an embodiment-agnostic action representation for transferring manipulation skills from human videos to robots.
+
+- **3DFlowAction: Learning Cross-Embodiment Manipulation from 3D Flow World Model**. [[pdf](https://arxiv.org/pdf/2506.06199)]
+  [![ArXiv](https://img.shields.io/badge/ArXiv-2506.06199-red)](https://arxiv.org/abs/2506.06199)
+  · Hongyan Zhi, Peihao Chen, Siyuan Zhou, Yubo Dong, Quanxi Wu, Lei Han, Mingkui Tan. *ArXiv, 2025*
+  > Predicts object-centric 3D flow as an embodiment-independent constraint for cross-embodiment manipulation.
 
 ### 2026
 
@@ -298,6 +389,41 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 - **Cross-robot behavior adaptation through intention alignment**. [[paper](https://www.science.org/doi/10.1126/scirobotics.adv2250)] [[pubmed](https://pubmed.ncbi.nlm.nih.gov/41849566/)]  
   [![Journal](https://img.shields.io/badge/Journal-Science_Robotics-blue)](https://www.science.org/journal/scirobotics)  
   · Xi Chen, Yuan Gao, Hangxin Liu, Fangkai Yang, Ali Ghadirzadeh, Jun Yang, Bin Liang, Chongjie Zhang, Tin Lun Lam, Song-Chun Zhu. *Science Robotics, 2026*  
+
+- **CE-Nav: Flow-Guided Reinforcement Refinement for Cross-Embodiment Local Navigation**. [[paper](https://proceedings.iclr.cc/paper_files/paper/2026/hash/514bdfb12b318ad02c6f28dc68f2feea-Abstract-Conference.html)]
+  [![Conference](https://img.shields.io/badge/Conference-ICLR-green)](https://iclr.cc/)
+  · Kai Yang, Tianlin Zhang, Zhengbo Wang, Zedong Chu, Xiaolong Wu, Yang Cai, Mu Xu. *ICLR, 2026*
+  > Separates embodiment-agnostic geometric reasoning from embodiment-specific dynamics adaptation for quadrupeds, bipeds, and quadrotors.
+
+- **X-Diffusion: Training Diffusion Policies on Cross-Embodiment Human Demonstrations**. [[web](https://portal-cornell.github.io/X-Diffusion/)]
+  [![Conference](https://img.shields.io/badge/Conference-ICRA-green)](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra)
+  · Maximus A. Pace, Prithwish Dan, Chuanruo Ning, Atiksh Bhardwaj, Audrey Du, Edward W. Duan, Wei-Chiu Ma, Kushal Kedia. *ICRA, 2026*
+  > Uses progressively noised human actions so task-level behavior can transfer from human demonstrations while low-noise supervision remains robot-compatible.
+
+- **One-Policy-Fits-All: Geometry-Aware Action Latents for Cross-Embodiment Manipulation**. [[pdf](https://arxiv.org/pdf/2603.14522)]
+  [![Conference](https://img.shields.io/badge/Conference-ICRA-green)](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra)
+  · Juncheng Mu, Sizhe Yang, Hojin Bae, Feiyu Jia, Qingwei Ben, Boyi Li, Huazhe Xu, Jiangmiao Pang. *ICRA, 2026*
+  > OPFA learns a Geometry-Aware Latent Representation and a unified retargeting decoder for heterogeneous grippers and dexterous hands.
+
+- **Cross-Embodiment Transfer via Behavior-Aligned Representations**. [[pdf](https://arxiv.org/pdf/2607.27549)] [[web](https://ajaysridhar.com/barx/)] [[code](https://github.com/ajaysridhar0/barx)]
+  [![Conference](https://img.shields.io/badge/Conference-ICRA-green)](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra)
+  · Ajay Sridhar, Jensen Gao, Jonathan Yang, Jean Mercat, Suneel Belkhale, Dorsa Sadigh. *ICRA, 2026*
+  > BARX studies behavior-aligned intermediate representations such as object boxes, language motions, and end-effector traces for cross-embodiment VLA transfer.
+
+- **Cross-Hand Latent Representation for Vision-Language-Action Models**. [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_Cross-Hand_Latent_Representation_for_Vision-Language-Action_Models_CVPR_2026_paper.html)]
+  [![Conference](https://img.shields.io/badge/Conference-CVPR-green)](https://cvpr.thecvf.com/)
+  · Guangqi Jiang, Yutong Liang, Jianglong Ye, Jia-Yang Huang, Changwei Jing, Rocky Duan, Pieter Abbeel, Xiaolong Wang, Xueyan Zou. *CVPR, 2026*
+  > Learns a shared latent action space across dexterous robot hands and integrates it into VLA models for cross-hand training and transfer.
+
+- **GraspGen-X: Cross-Embodiment 6-DOF Diffusion-based Grasping**. [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Han_GraspGen-X_Cross-Embodiment_6-DOF_Diffusion-based_Grasping_CVPR_2026_paper.html)]
+  [![Conference](https://img.shields.io/badge/Conference-CVPR-green)](https://cvpr.thecvf.com/)
+  · Beining Han, Yu-Wei Chao, Erwin Coumans, Clemens Eppner, Jia Deng, Stan Birchfield, Adithyavairavan Murali. *CVPR, 2026*
+  > Conditions a diffusion grasp generator on gripper morphology and trains on 395M simulated grasps for zero-shot generalization to novel grippers.
+
+- **TraceGen: World Modeling in 3D Trace Space Enables Learning from Cross-Embodiment Videos**. [[web](https://tracegen.github.io/)]
+  [![Conference](https://img.shields.io/badge/Conference-CVPR-green)](https://cvpr.thecvf.com/)
+  · Seungjae Lee, Yoonkyo Jung, Inkook Chun, Yao-Chih Lee, Zikui Cai, Hongjia Huang, Aayush Talreja, Tan Dat Dao, Yongyuan Liang, Jia-Bin Huang, Furong Huang. *CVPR, 2026*
+  > Uses 3D trace-space world modeling to learn transferable motion representations from heterogeneous human and robot videos.
 
 ---
 
@@ -379,6 +505,11 @@ A curated and **year-sorted** reading list for universal morphology control, cro
   [![Conference](https://img.shields.io/badge/Conference-ICLR-green)](https://iclr.cc/)  
   · Yanning Dai, Yuhui Wang, Dylan R. Ashley, Jürgen Schmidhuber. *ICLR, 2026*
 
+- **Shape Your Body: Value Gradients for Multi-Embodiment Robot Design**. [[pdf](https://arxiv.org/pdf/2606.00702)] [[web](https://nico-bohlinger.github.io/shape-your-body/)]
+  [![ArXiv](https://img.shields.io/badge/ArXiv-2606.00702-red)](https://arxiv.org/abs/2606.00702)
+  · Nico Bohlinger, Jan Peters. *ArXiv, 2026*
+  > Reuses a multi-embodiment value function as a differentiable surrogate for optimizing morphology and control parameters through value gradients.
+
 ---
 
 # 2. Datasets and Benchmarks
@@ -434,7 +565,9 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 - **RoboSet: A Large-Scale Multi-Robot Manipulation Dataset**. [[web](https://robopen.github.io/)]  
   [![Dataset](https://img.shields.io/badge/Dataset-Real_Robot-orange)](https://robopen.github.io/)  
   · RoboSet / RoboOpen contributors. *Dataset / Project, 2025*  
-  > Multi-robot manipulation demonstrations for cross-robot policy learning. Keep checking the project page for exact dataset versioning.## 2.2 Manipulation / Language / VLA Benchmarks
+  > Multi-robot manipulation demonstrations for cross-robot policy learning. Keep checking the project page for exact dataset versioning.
+
+## 2.2 Manipulation / Language / VLA Benchmarks
 
 ### 2019 / 2020
 
@@ -505,6 +638,33 @@ A curated and **year-sorted** reading list for universal morphology control, cro
   · Meenal Parakh, Alexandre Kirchmeyer, Beining Han, Jia Deng. *ArXiv, 2025*
   > Standardized reach/push benchmark for cross-embodiment manipulation, with interpolation, extrapolation, and composition generalization axes.
 
+- **GENBOT-1K**. [[paper](https://arxiv.org/pdf/2505.05753)] [[web](https://embodiment-scaling-laws.github.io/)] [[code](https://github.com/BoAi01/embodiment-scaling-laws)]
+  [![Benchmark](https://img.shields.io/badge/Benchmark-Morphology-orange)](https://embodiment-scaling-laws.github.io/)
+  · Introduced with *Towards Embodiment Scaling Laws in Robot Locomotion*. *CoRL, 2025*
+  > Roughly 1,000 procedurally generated humanoid, quadruped, and hexapod embodiments for studying embodiment scaling and zero-shot morphology generalization.
+
+### 2026
+
+- **RoboCasa-X**. [[code](https://github.com/ajaysridhar0/barx)] [[web](https://ajaysridhar.com/barx/)]
+  [![Benchmark](https://img.shields.io/badge/Benchmark-Cross--Embodiment-orange)](https://github.com/ajaysridhar0/barx)
+  · Introduced with *Cross-Embodiment Transfer via Behavior-Aligned Representations*. *ICRA, 2026*
+  > Simulation benchmark designed to measure transfer from heterogeneous source embodiments to held-out robot embodiments.
+
+- **UniDex-Dataset**. [[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_UniDex_A_Robot_Foundation_Suite_for_Universal_Dexterous_Hand_Control_CVPR_2026_paper.html)] [[code](https://github.com/unidex-ai/UniDex)]
+  [![Dataset](https://img.shields.io/badge/Dataset-Cross--Embodiment-orange)](https://github.com/unidex-ai/UniDex)
+  · Introduced with *UniDex*. *CVPR, 2026*
+  > 50K+ robot-centric trajectories across eight dexterous hands with 6–24 DoF, derived from egocentric human videos through retargeting.
+
+- **CEDex Cross-Embodiment Grasp Dataset**. [[code](https://github.com/jangys99/CEDex)]
+  [![Dataset](https://img.shields.io/badge/Dataset-Dexterous_Grasp-orange)](https://github.com/jangys99/CEDex)
+  · Introduced with *CEDex: Cross-Embodiment Dexterous Grasp Generation at Scale from Human-like Contact Representations*. *ICRA, 2026*
+  > 20M grasps across 500K objects and four gripper types.
+
+- **TraceForge-123K**. [[web](https://tracegen.github.io/)]
+  [![Dataset](https://img.shields.io/badge/Dataset-Cross--Embodiment_Video-orange)](https://tracegen.github.io/)
+  · Introduced with *TraceGen*. *CVPR, 2026*
+  > 123K videos and 1.8M observation–3D-trace–language triplets for cross-embodiment world-model learning.
+
 ---
 
 # 3. Suggested Reading Paths
@@ -543,13 +703,3 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 3. Morphological Pretraining → House of Dextra → Stackelberg PPO
 
 ---
-
-
-
-
-## 4.1 Additions in 2026-05-26 Update
-
-- Added RMA, GenLoco, ManyQuadrupeds, MetaLoco, GRoQ-LoCO, Multi-Loco, XHugWBC, and AnyBody.
-- RMA is included as a legged-locomotion adaptation precursor rather than a pure morphology-agnostic controller.
-- GenLoco, ManyQuadrupeds, MetaLoco, GRoQ-LoCO, Multi-Loco, and XHugWBC were added because they directly target generalist or cross-robot legged locomotion/control.
-- AnyBody was added as a cross-embodiment manipulation benchmark rather than a locomotion benchmark.
