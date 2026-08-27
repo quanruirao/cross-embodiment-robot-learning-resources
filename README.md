@@ -20,7 +20,6 @@ A curated and **year-sorted** reading list for universal morphology control, cro
   - [2.2 Manipulation / Language / VLA Benchmarks](#22-manipulation--language--vla-benchmarks)
   - [2.3 Morphology / Locomotion / Co-design Benchmarks](#23-morphology--locomotion--co-design-benchmarks)
 - [3. Suggested Reading Paths](#3-suggested-reading-paths)
-- [4. Verification Notes](#4-verification-notes)
 
 ---
 
