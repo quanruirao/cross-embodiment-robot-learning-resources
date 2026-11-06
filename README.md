@@ -35,19 +35,6 @@ A curated and **year-sorted** reading list for universal morphology control, cro
 | Embodiment co-design | NGE, DERL, BodyGen, House of Dextra, Learning to Reconfigure, Transformer Transformer, Dogger | Jointly optimize body morphology and controller. |
 | Datasets / benchmarks | Open X-Embodiment, DROID, RoboMIND, AGIBOT WORLD 2026, RoboCasa365, X2Real, Co-design Gym | Data substrate and evaluation suites for generalist robot learning. |
 
-### Recent additions at a glance
-
-| Work | Public date / status | Focus |
-|---|---|---|
-| [RecMorph](https://arxiv.org/abs/2609.18359) | 2026-09-16 · arXiv | Topology-guided spatial recurrence for generalized morphology control. |
-| [EXE](https://arxiv.org/abs/2610.33685) | 2026-10-24 · arXiv | Factorized latent actions for egocentric cross-embodiment pretraining. |
-| [MorphMimic](https://lzyang2000.github.io/morphmimic/) | 2026-10-29 · technical-report project v0.1 | Shared morphology-conditioned world model and humanoid tracking policy. |
-| [Hourglass](https://arxiv.org/abs/2610.41330) | 2026-10-30 · arXiv | Cross-embodiment planning through camera motion and differentiable ego-dynamics. |
-| [Learning Purposeful Co-designs / Dogger](https://arxiv.org/abs/2611.02462) | 2026-11-02 · arXiv | Geometry, passive compliance, and control co-design with hardware validation. |
-| [One-shot printable soft-robot co-design](https://arxiv.org/abs/2611.03216) | 2026-11-02 · arXiv | Joint material, actuation, and control optimization with monolithic fabrication. |
-
-See [Verification Notes](#4-verification-notes) for all additions, metadata corrections, and code-release distinctions.
-
 ---
 
 # 1. Papers
